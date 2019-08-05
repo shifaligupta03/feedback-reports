@@ -12,6 +12,9 @@ module.exports=(app)=>{
         res.send(req.user);
     })
 
+    app.get('/api/hello', (req, res)=>{
+        res.send({'hi':'hello'});
+    })
     app.get('/api/checkUser', (req, res)=>{
         res.send(req.user);
     })
