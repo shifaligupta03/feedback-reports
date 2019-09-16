@@ -1,3 +1,10 @@
 module.exports =(survey)=>{
-    return "<div>${survey.body}</div>"
+    return `
+       <html>
+        <body>
+            <div style="text-align:center;">
+            <p>Please answer the following questions</p>
+        </body
+       </html> 
+    `
 };
