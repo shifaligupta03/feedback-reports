@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import * as actions from '../actions';
 import Landing from './Landing';
 import Dashboard from './Dashboard';
-import SurveyNew from './surveys/surveyNew';
+import SurveyNew from './surveys/SurveyNew';
 
 // Browser router - brains of react routes, tells how to behave. It looks at the current url and changes the set of components that are visible on the screen
 // Route - react component that used to set up a rule in a certain route that user might visit inside an application and a set a components that will be actually visible on the screen
